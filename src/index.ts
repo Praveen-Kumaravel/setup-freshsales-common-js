@@ -1,6 +1,4 @@
-export interface CustomWindow extends Window {
-    freshsalesCommonJS: any;
-}
+import { CustomWindow } from "./types";
 
 declare let window: CustomWindow;
 

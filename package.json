@@ -6,6 +6,7 @@
   "files": ["dist"],
   "main": "./dist/freshsales-common-js.umd.cjs",
   "module": "./dist/freshsales-common-js.js",
+  "types": "./src/types.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
