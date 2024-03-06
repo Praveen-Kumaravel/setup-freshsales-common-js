@@ -7,9 +7,9 @@ const config = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'crm-common-js.js',
+    filename: 'crm-core.js',
     library: {
-      name: 'crmCommonJS',
+      name: 'crmCoreJS',
       type: 'umd'
     }
   },
